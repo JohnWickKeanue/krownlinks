@@ -11,7 +11,7 @@ url = "https://krownlinks.me/HRcoQ2Sl"  #@param {type:"string"}
 def bypass(url):
     client = requests.session()
     
-    DOMAIN = "https://go.exozed.com"
+    DOMAIN = "https://go.bloggertheme.xyz"
 
     url = url[:-1] if url[-1] == '/' else url
 
